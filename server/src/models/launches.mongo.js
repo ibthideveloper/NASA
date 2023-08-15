@@ -30,7 +30,7 @@ const launchesSchema = new mongoose.Schema({
     required: true,
     default: true,
   },
-  customer: [String],
+  customers: [String],
 });
 
 module.exports = mongoose.model("Launch", launchesSchema);
